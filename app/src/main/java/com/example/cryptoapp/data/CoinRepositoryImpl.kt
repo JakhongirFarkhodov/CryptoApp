@@ -10,6 +10,6 @@ class CoinRepositoryImpl : CoinRepository {
     }
 
     override fun getDetailOfCoin(): CoinInfo {
-        TODO("Not yet implemented")
+        return CoinInfo("","",1f,"")
     }
 }
